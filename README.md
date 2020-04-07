@@ -7,3 +7,9 @@ This repo follows the offical documentation [Boost.Asio](https://www.boost.org/d
 ## Examples
 
 ## Lambda
+
+## Http
+
+```sh
+./http_server.out 0.0.0.0 8080 .
+```
