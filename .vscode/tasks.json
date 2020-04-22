@@ -16,7 +16,9 @@
                 "~/boost/lib/",
                 "-l",
                 "boost_regex",
-                "-pthread"
+                "-pthread",
+                "-lssl",
+                "-lcrypto"
             ],
             "options": {
                 "cwd": "/usr/bin"
